@@ -11,6 +11,8 @@
 		C55D205E29BB4E9400E04B58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D205D29BB4E9400E04B58 /* ContentView.swift */; };
 		C55D206029BB4E9500E04B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55D205F29BB4E9500E04B58 /* Assets.xcassets */; };
 		C55D206329BB4E9500E04B58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55D206229BB4E9500E04B58 /* Preview Assets.xcassets */; };
+		C5AAB4362A4596C700558539 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AAB4352A4596C700558539 /* Account.swift */; };
+		C5B688992A40C1DF00015BC4 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B688982A40C1DF00015BC4 /* AccountCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C55D205D29BB4E9400E04B58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C55D205F29BB4E9500E04B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C55D206229BB4E9500E04B58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5AAB4352A4596C700558539 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		C5B688982A40C1DF00015BC4 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C55D205B29BB4E9400E04B58 /* ExpenseManagementApp.swift */,
 				C55D205D29BB4E9400E04B58 /* ContentView.swift */,
+				C5B688982A40C1DF00015BC4 /* AccountCell.swift */,
+				C5AAB4352A4596C700558539 /* Account.swift */,
 				C55D205F29BB4E9500E04B58 /* Assets.xcassets */,
 				C55D206129BB4E9500E04B58 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C55D205E29BB4E9400E04B58 /* ContentView.swift in Sources */,
+				C5AAB4362A4596C700558539 /* Account.swift in Sources */,
 				C55D205C29BB4E9400E04B58 /* ExpenseManagementApp.swift in Sources */,
+				C5B688992A40C1DF00015BC4 /* AccountCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

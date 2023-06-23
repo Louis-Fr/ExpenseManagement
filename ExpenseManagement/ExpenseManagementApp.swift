@@ -8,9 +8,12 @@
 import SwiftUI
 
 @main
+/// structure de type App
 struct ExpenseManagementApp: App {
+    /// objet Scene
     var body: some Scene {
         WindowGroup {
+    /// objet View
             ContentView()
         }
     }
