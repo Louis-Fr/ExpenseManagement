@@ -14,7 +14,7 @@ struct ExpenseManagementApp: App {
     var body: some Scene {
         WindowGroup {
     /// objet View
-            ContentView()
+            HomeView()
         }
     }
 }

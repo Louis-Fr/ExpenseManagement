@@ -9,8 +9,8 @@ import Foundation
 
 /// Objet Account qui encapsule 3 données
 
-struct Account {
-    
+struct Account: Identifiable {
+    let id = UUID()
     let nameIcon: String
     let name: String
     let amount: Float
