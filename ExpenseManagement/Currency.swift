@@ -22,7 +22,7 @@ enum Currency: String, CaseIterable {
         case .euro:
             return "eurosign.circle"
         case .ruble:
-            return "rublesing.circle"
+            return "rublesign.circle"
         case .sterling:
             return "sterlingsign.circle"
         case .yen:

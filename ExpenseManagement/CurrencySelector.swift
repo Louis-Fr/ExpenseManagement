@@ -15,11 +15,18 @@ struct CurrencySelector: View {
     /// la devise selectionné
     @State private var selectedCurrency: Currency = .euro
     /// mode sélectionné
-    @State private var isSelectedMode = false
+    @State private var isSelectedMode = true
     
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            ForEach(currencies.indices) { index in
+                Image(systemName: selectedCurrency == currencies[index] ? currencies[index].filledIconName : currencies[index].iconName)
+                    .font(.system(size: 32))
+                    .offset(x: isSelectedMode ? -CGFloat(index) * 40 : 0)
+                    .opacity(selectedCurrency == currencies[index] || isSelectedMode ? 1 : 0)
+            }
+        }
     }
 }
 
